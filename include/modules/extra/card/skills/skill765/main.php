@@ -50,7 +50,7 @@ namespace skill765
 		if (!empty($pa['sk765_flag']))
 		{
 			$bskid = array_randompick($blist_e);
-			eval(import_module('player', 'clubbase'));
+			eval(import_module('clubbase'));
 			$skname = '';
 			if (!empty($clubskillname[$bskid])) $skname = '「'.$clubskillname[$bskid].'」';
 			eval(import_module('logger'));
