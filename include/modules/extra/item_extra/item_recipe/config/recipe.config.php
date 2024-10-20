@@ -314,7 +314,7 @@ namespace item_recipe
 		),
 		46 => array
 		(
-			'stuff1' => array('itm'=>'No39.希望皇 霍普 ☆4','itm_match'=>2),
+			'stuff1' => array('itm'=>'No.39 希望皇 霍普 ☆4','itm_match'=>2),
 			'stuff2' => array('itm'=>'☆叠♂放☆','itm_match'=>0),
 			'result' => array('闪光No.39 希望皇 霍普一 ☆4','WC',251,'∞','d^xyz4^reptype1^res_<:comp_itmsk:>{「潘多拉之力」,MB,1,1,^mbid404^mblvl4,}1'),
 			'extra' => array('materials'=>2, 'consume_recipe'=>true),

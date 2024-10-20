@@ -68,7 +68,7 @@ $pack_ignore_kuji = Array('Balefire Rekindle','Event Bonus','Pungeon');
 
 //卡包实装的时间戳，可以用来隐藏卡包
 $packstart = array(
-	'Cyber Zealots' => 4476654671,
+	//'Cyber Zealots' => 4476654671,
 	//'東埔寨Protoject' => 4476654671,
 	'Stealth' => 4476654671,
 	'hidden' => 4476654671,
@@ -7067,6 +7067,23 @@ $cards = array(
 			'skills' => array(
 				'765' => '0',
 			),
+		),
+	),
+	436 => array(
+		'name' => '霊符挑战者',
+		'rare' => 'C',
+		'pack' => 'Way of Life',
+		'desc' => '又开始带灵符节奏了，我真是服了。梦想妙珠是DTS唯一的完美武器，已经和梦境演练融为一体，成了梦境演练模式的底层逻辑，成名绝技千效连击重枪射程给梦境演练带来了这个游戏最经典的速刷，创造了梦境演练的黄金时代。',
+		'effect' => '删灵符，你们是想毁了DTS吗？',
+		'desc_skills' => '开局携带☆博丽护符☆',
+		'bigdesc' => 1,
+		'energy' => 0,
+		'valid' => array(
+			'itm6' => '☆博丽护符☆',
+			'itmk6' => 'X',
+			'itme6' => '1',
+			'itms6' => '1',
+			'itmsk6' => '',
 		),
 	),
 	
